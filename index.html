@@ -18,19 +18,32 @@
 
     <input type="text" v-model="personText">
     <button type="button" name="button" @click="addPerson">Ajouter une personne</button>
-    <button type="button" name="button" @click="sortPerson">Trier les personnes personne</button>
+    <button type="button" name="button" @click="sortPerson">Trier les personnes</button>
 
     <table class="table">
       <tr>
         <th></th>
         <th>First name</th>
       </tr>
-
       <tr v-for="(person, index) in persons">
         <td>{{ index }}</td>
         <td>{{ person }}</td>
       </tr>
     </table>
+
+    <hr>
+
+    <div class="alert alert-success" role="alert" v-if="success1">
+      <p>
+        Changement d'alert selon le state de success <button type="button" name="button" v-on:click="changestate">Changer de state</button>
+      </p>
+    </div>
+    <div class="alert alert-danger" role="alert" v-else>
+      <p>
+         Alert danger <button type="button" name="button" v-on:click="changestate">Changer de state</button>
+      </p>
+    </div>
+
 
   </div>
 
