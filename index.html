@@ -12,8 +12,27 @@
     <h1>{{ titre }}</h1>
 
     {{ message }}<br>
-  </div>
+    <ul>
+      <li v-for="person in persons"> {{ person }}</li>
+    </ul>
 
+    <input type="text" v-model="personText">
+    <button type="button" name="button" @click="addPerson">Ajouter une personne</button>
+    <button type="button" name="button" @click="sortPerson">Trier les personnes personne</button>
+
+    <table class="table">
+      <tr>
+        <th></th>
+        <th>First name</th>
+      </tr>
+
+      <tr v-for="(person, index) in persons">
+        <td>{{ index }}</td>
+        <td>{{ person }}</td>
+      </tr>
+    </table>
+
+  </div>
 
   <script type="text/javascript" src="vue.js"></script>
   <script type="text/javascript" src="app.js"></script>

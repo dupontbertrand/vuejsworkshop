@@ -3,14 +3,25 @@
 Liens utiles pour la présentation :
 
 [Documentation complète et officielle](https://vuejs.org)
+
 [Plugins utiles et ressources diverses](https://github.com/vuejs/awesome-vue#libraries--plugins)
+
 [React vs Vue](http://www.stefankrause.net/js-frameworks-benchmark5/webdriver-ts/table.html)
+
 [Interview d'Evan You par "Open-source github"](https://github.com/open-source/stories/yyx990803)
+
 [Interview d'Evan You par betweenthewires](https://betweenthewires.org/between-the-wires-evan-you-cb56660bc8a4#.b3lapwjug)
+
 [Evan You répond à plusieurs questions concernant l'écosystème de Vue (Jobs, cas d'utilisation par les entreprises, trends...)](https://www.quora.com/How-popular-is-VueJS-in-the-industry)
+
 [Vue.js best of MVVM ?](https://blog.lesieur.name/vuejs-versus-angular-versus-react-versus-les-autres-mvvm/)
+
 [Comparaison Vue.js avec d'autres FW sur leur propre site](https://vuejs.org/v2/guide/comparison.html)
+
 [Vue.js par la communauté laravel](http://laravel.sillo.org/vue-js/)
+
+
+### Démarrage rapide
 
 1. Englober d'un élément avec un ID (ici "app")
 
@@ -195,7 +206,7 @@ On le déclare hors de notre composant de cette facon :
   return value.toUpperCase()
   })`
 
-Nous pouvons le déclarer hors de notre composant mais ne l'appeller que dans un de celui-ci :
+Nous pouvons le déclarer hors de notre composant mais ne l'appeler que dans un de celui-ci :
 `let dunno = function (value) {
   return value.toLowerCase()
 }`
