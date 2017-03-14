@@ -51,7 +51,7 @@ Liens utiles pour la présentation :
 
 7. Ici par exemple on peut écrire `message: 'Rapide découverte'`  
 
-  * Cette ligne va donc render à la vue la valeur de notre variable message : "Salut les gens"
+  * Cette ligne va donc render à la vue la valeur de notre variable message : "Rapide découverte"
 
 8. **Cela ne marche pas pour les attributs (href par exemple: `href='{{ link }}'` PAS POSSIBLE**
 
